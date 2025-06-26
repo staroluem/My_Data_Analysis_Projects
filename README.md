@@ -12,7 +12,7 @@ This project analyzes revenue trends within the hospitality sector, focusing on 
 
 **Key Tools**:
 - PowerBI
-- Jupyter Notebook
+- Excel
 
 
 
@@ -39,6 +39,7 @@ This project explores and analyzes a dataset of movies to understand how differe
 -Pandas (data manipulation)
 -Matplotlib / Seaborn / Plotly (data visualization)
 -NumPy (statistical calculations)
+-Streamlit(dashboard)
 -Jupyter Notebook
 
 ---

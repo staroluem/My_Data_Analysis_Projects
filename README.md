@@ -1,4 +1,4 @@
-#📊 Data Analysis Projects
+# 📊 Data Analysis Projects
 
 Welcome! This repository contains three data analysis projects I’ve worked on to explore, clean, visualize, and derive insights from different datasets. Each project demonstrates various aspects of data wrangling, statistical analysis, and visualization using Python.
 

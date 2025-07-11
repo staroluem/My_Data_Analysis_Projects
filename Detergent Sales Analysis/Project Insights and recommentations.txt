@@ -51,13 +51,15 @@ streamlit run app.py
 
 Insights taken out from data why 11% decrease in detergent sales:
 
-1.Decrease in the discount on products. Also one Saturday was less in sep2019 which decremented sales by 9%.
+1.Decrease in the discount on products.
 
-2.Decrease in the Most Price Sensitive, Price sensitive as well as Price neutral customers which is one of the possible reason for decrease in Detergent sale.
+2.One Saturday was less in sep2019 which individually decremented sales by 9%.
 
-3.The chart shows that Lombardia had a significant drop in the number of transactions in 2019. This could be a key factor in the decrease in sales.
+3.Increase in Price sensitive as well as Price neutral customers which is one of the possible reason for decrease in Detergent sale.
 
-4.Decrease in the customer engagement with retailer, as Elite(1), Good(2) and Occasional(3) engagement decreased and Unassigned increased.
+4.The chart shows that Lombardia had a significant drop in the number of transactions in 2019. This could be a key factor in the decrease in sales.
+
+5.Decrease in the customer engagement with retailer, as Elite(1), Good(2) and Occasional(3) engagement decreased and Unassigned increased.
 
 --------------------------------------------------------------------
 Recommendations:

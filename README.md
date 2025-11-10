@@ -16,14 +16,16 @@ This project analyzes revenue trends within the hospitality sector, focusing on 
 
 
 
-## 📈 Project 2: Detergent Sales Analysis
+## 📈 Project 2: Intelligent Sales Decline Diagnostic
 
 **Folder**: `Detergent Sales Analysis/`  
 **Description**:  
-This project investigates a -11% decline in detergent sales in September (YoY) to identify potential causes and recommend actionable strategies. The analysis includes a deep dive into customer segments, sales trends across months and channels, promotional activities, and market factors.
+Developed a machine learning–driven diagnostic system to identify the key factors behind an \textbf{11\% YoY decline in detergent sales}. Integrated and analyzed multi-source datasets (Store, Product, and Transaction) to uncover trends across price sensitivity, promotions, regions, and brands. Built an \textbf{XGBoost regression model} to predict sales and determine high-impact features using \textbf{SHAP explainability} and feature importance analysis. Delivered actionable insights showing how customer price sensitivity, discounts, and regional performance influenced the decline.
 
 **Key Tools**:
 -Pandas
+-XGBoost
+-SHAP
 -Matplotlib, Seaborn
 -Excel/Power BI
 -streamlit(prediction model interface)

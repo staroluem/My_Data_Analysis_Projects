@@ -1,32 +1,29 @@
-# Sales-Analysis-Project
+Intelligent sales decline diagnostic
 
-🧼 Detergent Sales Analysis & Forecasting Web App
-This project is a Streamlit-based interactive web application that analyzes detergent sales trends, investigates a reported 11% decline from 2018 to 2019, and uses a machine learning model to forecast daily sales quantity.
+ Developed a diagnostic system to identify the key factors behind an 11% YoY
+ decline in detergent sales. Integrated and analyzed multi-source datasets (Store, Product, and Transaction) to uncover trends across price sensitivity, promotions, regions, and brands. Built an XGBoost regression model to predict sales and determine high-impact features using SHAP explainability and feature importance analysis. Delivered actionable insights showing how customer price sensitivity, discounts, and regional performance influenced the decline. Tools Used:Python,
+ Pandas, XGBoost, Scikit-learn, SHAP, Seaborn, Matplotlib, Excel
 
-The app integrates transaction, product, and store datasets, visual insights, and forecasting tools to help optimize inventory, promotions, and business strategy.
-
+Analyzed sales transaction data to identify a-11% YoY drop in detergent sales for September.
+Applied data cleaning and preprocessing , handled missing values duplicate values, and corrected inconsistent data types using Pandas and NumPy in Jupyter Notebook. Transformed  and enriched dataset using Power BI power query and Excel. Then performed preliminary exploration(pivot table and charts)  used for designing dashboards and visualizations to present key trends. Provided data-driven recommendations that helped guide marketing strategy improvements. 
 🔍 Features
 📊 Power BI visuals for overall sales drop and key insights
 🏪 Data previews for transactions, products, and stores
 🔎 Sales pattern analysis by day of the week
-🤖 Machine Learning model using Random Forest to:
-Forecast total quantity sold for a selected day
-Highlight whether the day’s sales are above/below historical average
+🤖 Machine Learning model using XGBoost to:
+XGBoost helps you identify the key reasons behind the -11% detergent sales decline.
+You can use it to:
+
+Predict sales (NET_AMT) using historical data
+
+Find most important factors affecting the drop through feature importance
+
+Support your recommendations with data-driven insights
 💡 Business recommendations to improve future sales
 🧠 ML Model Details
-Model: Random Forest Regressor
-Target: Total sales quantity per day
-Features used:
-day_of_week (0 = Monday, 6 = Sunday)
-is_weekend (1 for Saturday/Sunday, else 0)
-
+Model: XGBoost
 -----------------------------------------------------------------
 🧰 Requirements
-Install dependencies using pip:
-
-pip install streamlit pandas scikit-learn pillow
-
-## How to Run
 Place the following files in the same folder:
 
 TransactionData.xlsx
@@ -38,15 +35,6 @@ Store.xlsx
 profitloss.png
 
 INSIGHTS.png
-
-app.py (your Python script)
-
-Open terminal/command prompt in that directory
-
-Run the Streamlit app:
-streamlit run app.py
-
-
 -----------------------------------------------------------------
 
 Insights taken out from data why 11% decrease in detergent sales:
@@ -55,7 +43,7 @@ Insights taken out from data why 11% decrease in detergent sales:
 
 2.One Saturday was less in sep2019 which individually decremented sales by 9%.
 
-3.Increase in Price sensitive as well as Price neutral customers which is one of the possible reason for decrease in Detergent sale.
+3.Increase in Price sensitive as well as Price neutral customers which is one of the possible reason for decrease in Detergent sale.
 
 4.The chart shows that Lombardia had a significant drop in the number of transactions in 2019. This could be a key factor in the decrease in sales.
 
@@ -73,6 +61,7 @@ Introduce exclusive in-store promotions.
 
 4.Enhancing marketing through influencer partnerships
 
+Modify answer and give me in paragraph format the detailed explaination of project
 
 
 

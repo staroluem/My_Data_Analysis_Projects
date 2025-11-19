@@ -1,32 +1,10 @@
 # Sales-Analysis-Project
 
 🧼 Detergent Sales Analysis & Forecasting Web App
-This project is a Streamlit-based interactive web application that analyzes detergent sales trends, investigates a reported 11% decline from 2018 to 2019, and uses a machine learning model to forecast daily sales quantity.
-
-The app integrates transaction, product, and store datasets, visual insights, and forecasting tools to help optimize inventory, promotions, and business strategy.
-
-🔍 Features
-📊 Power BI visuals for overall sales drop and key insights
-🏪 Data previews for transactions, products, and stores
-🔎 Sales pattern analysis by day of the week
-🤖 Machine Learning model using Random Forest to:
-Forecast total quantity sold for a selected day
-Highlight whether the day’s sales are above/below historical average
-💡 Business recommendations to improve future sales
-🧠 ML Model Details
-Model: Random Forest Regressor
-Target: Total sales quantity per day
-Features used:
-day_of_week (0 = Monday, 6 = Sunday)
-is_weekend (1 for Saturday/Sunday, else 0)
+During my internship, I developed a Detergent Sales Analysis & Forecasting System aimed at diagnosing the reasons behind an 11% year-over-year decline in detergent sales for September. I integrated multiple datasets—including transaction, product, and store-level data—and performed extensive data cleaning and preprocessing using Python, Pandas, NumPy, and Jupyter Notebook. I analyzed sales patterns across customer segments, regions, time periods, and promotional activities, and built Power BI dashboards to visualize key trends such as engagement levels, price sensitivity, discount impact, and regional performance. To deepen the analysis, I developed an XGBoost regression model to predict sales and applied SHAP explainability and feature importance analysis to identify the most impactful factors contributing to the decline. Insights revealed reduced promotional discounts, fewer high-traffic days such as weekends, increased price-sensitive customers, declining customer engagement, and significantly lower transactions in regions like Lombardia. Based on these findings, I proposed business recommendations such as increasing promotional offers for price-sensitive customers, improving competitive pricing across local markets, enhancing engagement in underperforming stores, and leveraging influencer-driven marketing to boost sales. The project was delivered as a web-based analytical application integrating dataset views, visual insights, and forecasting tools, helping stakeholders optimize inventory, promotions, and strategy.
 
 -----------------------------------------------------------------
 🧰 Requirements
-Install dependencies using pip:
-
-pip install streamlit pandas scikit-learn pillow
-
-## How to Run
 Place the following files in the same folder:
 
 TransactionData.xlsx
@@ -72,6 +50,7 @@ Introduce exclusive in-store promotions.
 3.Increment in offers and discounts increase interactions of the price sensitive customers.
 
 4.Enhancing marketing through influencer partnerships
+
 
 
 
